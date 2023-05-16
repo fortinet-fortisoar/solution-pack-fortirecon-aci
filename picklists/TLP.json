@@ -1,0 +1,60 @@
+{
+    "@context": "\/api\/3\/contexts\/PicklistName",
+    "@id": "\/api\/3\/picklist_names\/4fab8a09-25d5-44b0-bffa-fcabb09276c4",
+    "@type": "PicklistName",
+    "name": "TLP",
+    "system": false,
+    "picklists": [
+        {
+            "@id": "\/api\/3\/picklists\/b6a4bf0d-ee7a-475a-a579-61705021df1e",
+            "@type": "Picklist",
+            "itemValue": "White",
+            "orderIndex": 1,
+            "color": "#ffffff",
+            "icon": null,
+            "listName": "\/api\/3\/picklist_names\/4fab8a09-25d5-44b0-bffa-fcabb09276c4",
+            "uuid": "b6a4bf0d-ee7a-475a-a579-61705021df1e"
+        },
+        {
+            "@id": "\/api\/3\/picklists\/85d46b37-8d51-4b71-81eb-a77b5ea166ee",
+            "@type": "Picklist",
+            "itemValue": "Green",
+            "orderIndex": 2,
+            "color": "#209b3a",
+            "icon": null,
+            "listName": "\/api\/3\/picklist_names\/4fab8a09-25d5-44b0-bffa-fcabb09276c4",
+            "uuid": "85d46b37-8d51-4b71-81eb-a77b5ea166ee"
+        },
+        {
+            "@id": "\/api\/3\/picklists\/2b7098e6-2c69-4f9d-8373-edca4f79b1c2",
+            "@type": "Picklist",
+            "itemValue": "Amber",
+            "orderIndex": 3,
+            "color": "#fc9623",
+            "icon": null,
+            "listName": "\/api\/3\/picklist_names\/4fab8a09-25d5-44b0-bffa-fcabb09276c4",
+            "uuid": "2b7098e6-2c69-4f9d-8373-edca4f79b1c2"
+        },
+        {
+            "@id": "\/api\/3\/picklists\/2cb59043-1851-4cc2-abd6-f899d7f23ad0",
+            "@type": "Picklist",
+            "itemValue": "Red",
+            "orderIndex": 4,
+            "color": "#ff0000",
+            "icon": null,
+            "listName": "\/api\/3\/picklist_names\/4fab8a09-25d5-44b0-bffa-fcabb09276c4",
+            "uuid": "2cb59043-1851-4cc2-abd6-f899d7f23ad0"
+        },
+        {
+            "@id": "\/api\/3\/picklists\/61d62182-6c0c-4059-a563-79630411cb52",
+            "@type": "Picklist",
+            "itemValue": "Unknown",
+            "orderIndex": 0,
+            "color": "#b6b2b2",
+            "icon": null,
+            "listName": "\/api\/3\/picklist_names\/4fab8a09-25d5-44b0-bffa-fcabb09276c4",
+            "uuid": "61d62182-6c0c-4059-a563-79630411cb52"
+        }
+    ],
+    "uuid": "4fab8a09-25d5-44b0-bffa-fcabb09276c4"
+}

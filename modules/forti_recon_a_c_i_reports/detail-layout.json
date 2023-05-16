@@ -1,0 +1,443 @@
+{
+    "@context": "\/api\/3\/contexts\/SystemViewTemplate",
+    "@type": "SystemViewTemplate",
+    "type": "rows",
+    "config": {
+        "rows": [
+            {
+                "columns": [
+                    {
+                        "widgets": [
+                            {
+                                "type": "primaryDetail",
+                                "config": {
+                                    "wid": "d70794e4-b899-4142-9376-088fdb7aa7a0",
+                                    "idField": "id",
+                                    "picklistFieldReadOnly": false,
+                                    "titleFieldReadOnly": false,
+                                    "featuredRelationship": {
+                                        "field": null,
+                                        "preText": "Under Investigation In",
+                                        "query": null,
+                                        "statusField": null,
+                                        "sort": []
+                                    },
+                                    "picklistField": "tLP",
+                                    "titleField": "reportID"
+                                }
+                            },
+                            {
+                                "type": "tabs",
+                                "config": {
+                                    "wid": "d1a8922e-d063-4253-bade-ef6077a1c68f",
+                                    "tabs": [
+                                        {
+                                            "title": "ACA Report",
+                                            "active": 0,
+                                            "widget": {
+                                                "type": "rows",
+                                                "config": {
+                                                    "wid": "4992ad34-efe1-47d7-8550-4ce047ad5894",
+                                                    "rows": [
+                                                        {
+                                                            "columns": [
+                                                                {
+                                                                    "widgets": [
+                                                                        {
+                                                                            "type": "editableFormGroup",
+                                                                            "config": {
+                                                                                "wid": "38e8bcd1-2b67-4530-a83e-fdf5980a7589",
+                                                                                "rows": [
+                                                                                    {
+                                                                                        "columns": [
+                                                                                            {
+                                                                                                "fields": [
+                                                                                                    {
+                                                                                                        "name": "reportTitle",
+                                                                                                        "highlightMode": true,
+                                                                                                        "readOnly": false
+                                                                                                    },
+                                                                                                    {
+                                                                                                        "name": "summary",
+                                                                                                        "highlightMode": true,
+                                                                                                        "readOnly": false
+                                                                                                    },
+                                                                                                    {
+                                                                                                        "name": "reportLink",
+                                                                                                        "highlightMode": true,
+                                                                                                        "readOnly": false
+                                                                                                    }
+                                                                                                ],
+                                                                                                "style": "col-lg-12"
+                                                                                            }
+                                                                                        ]
+                                                                                    }
+                                                                                ]
+                                                                            }
+                                                                        }
+                                                                    ],
+                                                                    "style": "col-lg-9"
+                                                                },
+                                                                {
+                                                                    "widgets": [
+                                                                        {
+                                                                            "type": "editableFormGroup",
+                                                                            "config": {
+                                                                                "wid": "c7ee5e1f-f4b4-44ec-af29-fb04dd4eed87",
+                                                                                "rows": [
+                                                                                    {
+                                                                                        "columns": [
+                                                                                            {
+                                                                                                "fields": [
+                                                                                                    {
+                                                                                                        "name": "informationDate",
+                                                                                                        "highlightMode": true,
+                                                                                                        "readOnly": false
+                                                                                                    },
+                                                                                                    {
+                                                                                                        "name": "publishDate",
+                                                                                                        "highlightMode": true,
+                                                                                                        "readOnly": false
+                                                                                                    },
+                                                                                                    {
+                                                                                                        "name": "createDate",
+                                                                                                        "highlightMode": true,
+                                                                                                        "readOnly": false
+                                                                                                    },
+                                                                                                    {
+                                                                                                        "name": "modifyDate",
+                                                                                                        "highlightMode": true,
+                                                                                                        "readOnly": false
+                                                                                                    }
+                                                                                                ]
+                                                                                            }
+                                                                                        ]
+                                                                                    }
+                                                                                ]
+                                                                            }
+                                                                        }
+                                                                    ],
+                                                                    "style": "col-lg-3"
+                                                                }
+                                                            ],
+                                                            "wid": "119c097d-ced2-4d8e-bb02-ffed4a33bdc6",
+                                                            "collapsible": false,
+                                                            "collapsibleIndex": 0,
+                                                            "_collapsed": false,
+                                                            "container": true
+                                                        },
+                                                        {
+                                                            "columns": [
+                                                                {
+                                                                    "widgets": [
+                                                                        {
+                                                                            "type": "editableFormGroup",
+                                                                            "config": {
+                                                                                "wid": "7b985fe4-de93-4f1f-8eae-d4bcf7252358",
+                                                                                "rows": [
+                                                                                    {
+                                                                                        "columns": [
+                                                                                            {
+                                                                                                "fields": [
+                                                                                                    {
+                                                                                                        "name": "tLP",
+                                                                                                        "highlightMode": true,
+                                                                                                        "readOnly": true
+                                                                                                    },
+                                                                                                    {
+                                                                                                        "name": "relevanceRating",
+                                                                                                        "highlightMode": true,
+                                                                                                        "readOnly": true
+                                                                                                    },
+                                                                                                    {
+                                                                                                        "name": "informationReliability",
+                                                                                                        "highlightMode": true,
+                                                                                                        "readOnly": true
+                                                                                                    }
+                                                                                                ],
+                                                                                                "style": "col-lg-4"
+                                                                                            },
+                                                                                            {
+                                                                                                "fields": [
+                                                                                                    {
+                                                                                                        "name": "status",
+                                                                                                        "highlightMode": true,
+                                                                                                        "readOnly": false
+                                                                                                    },
+                                                                                                    {
+                                                                                                        "name": "sourceName",
+                                                                                                        "highlightMode": true,
+                                                                                                        "readOnly": false
+                                                                                                    },
+                                                                                                    {
+                                                                                                        "name": "sourceReliability",
+                                                                                                        "highlightMode": true,
+                                                                                                        "readOnly": true
+                                                                                                    }
+                                                                                                ],
+                                                                                                "style": "col-lg-4"
+                                                                                            },
+                                                                                            {
+                                                                                                "fields": [
+                                                                                                    {
+                                                                                                        "name": "reportType",
+                                                                                                        "highlightMode": true,
+                                                                                                        "readOnly": false
+                                                                                                    },
+                                                                                                    {
+                                                                                                        "name": "sourceCategory",
+                                                                                                        "highlightMode": true,
+                                                                                                        "readOnly": false
+                                                                                                    },
+                                                                                                    {
+                                                                                                        "name": "motivation",
+                                                                                                        "highlightMode": true,
+                                                                                                        "readOnly": false
+                                                                                                    }
+                                                                                                ],
+                                                                                                "style": "col-lg-4"
+                                                                                            }
+                                                                                        ]
+                                                                                    }
+                                                                                ]
+                                                                            }
+                                                                        }
+                                                                    ],
+                                                                    "style": "col-lg-12"
+                                                                }
+                                                            ],
+                                                            "wid": "41dce60b-cbd1-4d28-90c5-8eebd51a49a8",
+                                                            "_collapsed": false,
+                                                            "container": true,
+                                                            "collapsible": false,
+                                                            "collapsibleIndex": 0
+                                                        },
+                                                        {
+                                                            "columns": [
+                                                                {
+                                                                    "widgets": [
+                                                                        {
+                                                                            "type": "editableFormGroup",
+                                                                            "config": {
+                                                                                "wid": "d9f6fc02-60a7-4536-9952-1e18150f25a5",
+                                                                                "rows": [
+                                                                                    {
+                                                                                        "columns": [
+                                                                                            {
+                                                                                                "fields": [
+                                                                                                    {
+                                                                                                        "name": "threat",
+                                                                                                        "highlightMode": true,
+                                                                                                        "readOnly": true
+                                                                                                    }
+                                                                                                ]
+                                                                                            }
+                                                                                        ]
+                                                                                    }
+                                                                                ]
+                                                                            }
+                                                                        }
+                                                                    ],
+                                                                    "style": "col-lg-3"
+                                                                },
+                                                                {
+                                                                    "widgets": [
+                                                                        {
+                                                                            "type": "editableFormGroup",
+                                                                            "config": {
+                                                                                "wid": "71e82f84-6abc-4014-8ba1-69163983f79e",
+                                                                                "rows": [
+                                                                                    {
+                                                                                        "columns": [
+                                                                                            {
+                                                                                                "fields": [
+                                                                                                    {
+                                                                                                        "name": "adversary",
+                                                                                                        "highlightMode": true,
+                                                                                                        "readOnly": true
+                                                                                                    }
+                                                                                                ]
+                                                                                            }
+                                                                                        ]
+                                                                                    }
+                                                                                ]
+                                                                            }
+                                                                        }
+                                                                    ],
+                                                                    "style": "col-lg-3"
+                                                                },
+                                                                {
+                                                                    "widgets": [
+                                                                        {
+                                                                            "type": "editableFormGroup",
+                                                                            "config": {
+                                                                                "wid": "1de34406-1235-4411-84bc-d90abac55a88",
+                                                                                "rows": [
+                                                                                    {
+                                                                                        "columns": [
+                                                                                            {
+                                                                                                "fields": [
+                                                                                                    {
+                                                                                                        "name": "industryTags",
+                                                                                                        "highlightMode": true,
+                                                                                                        "readOnly": true
+                                                                                                    }
+                                                                                                ]
+                                                                                            }
+                                                                                        ]
+                                                                                    }
+                                                                                ]
+                                                                            }
+                                                                        }
+                                                                    ],
+                                                                    "style": "col-lg-3"
+                                                                },
+                                                                {
+                                                                    "widgets": [
+                                                                        {
+                                                                            "type": "editableFormGroup",
+                                                                            "config": {
+                                                                                "wid": "38fef39e-ac34-4f40-a6e3-464db81c9f51",
+                                                                                "rows": [
+                                                                                    {
+                                                                                        "columns": [
+                                                                                            {
+                                                                                                "fields": [
+                                                                                                    {
+                                                                                                        "name": "geography",
+                                                                                                        "highlightMode": true,
+                                                                                                        "readOnly": true
+                                                                                                    }
+                                                                                                ]
+                                                                                            }
+                                                                                        ]
+                                                                                    }
+                                                                                ]
+                                                                            }
+                                                                        }
+                                                                    ],
+                                                                    "style": "col-lg-3"
+                                                                }
+                                                            ],
+                                                            "wid": "ea885e36-82db-4f5f-accf-669f4d0a27e6",
+                                                            "collapsible": false,
+                                                            "collapsibleIndex": 0,
+                                                            "_collapsed": false,
+                                                            "container": true
+                                                        },
+                                                        {
+                                                            "columns": [
+                                                                {
+                                                                    "widgets": [
+                                                                        {
+                                                                            "type": "tabs",
+                                                                            "config": {
+                                                                                "tabs": [
+                                                                                    {
+                                                                                        "title": "Related Records",
+                                                                                        "widget": {
+                                                                                            "type": "relationship.subtab",
+                                                                                            "config": {
+                                                                                                "excludes": [
+                                                                                                    "notes",
+                                                                                                    "comments",
+                                                                                                    "userOwners",
+                                                                                                    "attachments"
+                                                                                                ],
+                                                                                                "wid": "fc115141-8259-4239-941a-247262cab27a",
+                                                                                                "selectionType": "exclude",
+                                                                                                "expandableCol": {
+                                                                                                    "indicators": {
+                                                                                                        "columns": [],
+                                                                                                        "checkBox": false
+                                                                                                    }
+                                                                                                },
+                                                                                                "enableHorizontalScroll": [],
+                                                                                                "includes": []
+                                                                                            }
+                                                                                        },
+                                                                                        "show": true,
+                                                                                        "visible": true,
+                                                                                        "icon": "fa fa-none"
+                                                                                    }
+                                                                                ],
+                                                                                "wid": "5fc7f7cd-9133-4f9c-a356-e540f3b83da6"
+                                                                            }
+                                                                        }
+                                                                    ],
+                                                                    "style": "col-lg-12"
+                                                                }
+                                                            ],
+                                                            "wid": "1ac0fb74-11f5-441a-b041-3cf626f1c27f",
+                                                            "_collapsed": false,
+                                                            "container": true
+                                                        }
+                                                    ]
+                                                }
+                                            },
+                                            "icon": "icon icon-generate-incident-summary-report",
+                                            "show": true,
+                                            "visible": true
+                                        },
+                                        {
+                                            "title": "Playbooks",
+                                            "active": 0,
+                                            "widget": {
+                                                "type": "executedPlaybooks",
+                                                "config": {
+                                                    "wid": "7c4fddc0-ca59-4df3-b19a-010bc63d0a1b"
+                                                }
+                                            },
+                                            "icon": "icon icon-playbooks",
+                                            "show": false,
+                                            "visible": true
+                                        },
+                                        {
+                                            "title": "Audit Logs",
+                                            "active": 0,
+                                            "widget": {
+                                                "type": "rows",
+                                                "config": {
+                                                    "wid": "36cf7d74-4c0b-415d-85dc-d62bf5ef0d8c",
+                                                    "rows": [
+                                                        {
+                                                            "columns": [
+                                                                {
+                                                                    "widgets": [
+                                                                        {
+                                                                            "type": "timeline",
+                                                                            "config": {
+                                                                                "wid": "6cda2a7e-97b0-454b-b9c5-08a869987ad6"
+                                                                            }
+                                                                        }
+                                                                    ],
+                                                                    "style": "col-lg-12"
+                                                                }
+                                                            ],
+                                                            "wid": "5fdd6d08-8061-42e6-8b0e-c1365d9dad7e",
+                                                            "_collapsed": false
+                                                        }
+                                                    ]
+                                                }
+                                            },
+                                            "icon": "icon icon-audit-log",
+                                            "show": false,
+                                            "visible": true
+                                        }
+                                    ]
+                                }
+                            }
+                        ],
+                        "style": "col-lg-12"
+                    }
+                ],
+                "wid": "2bcd173c-03ae-45e1-83c7-bb1cebe54108",
+                "_collapsed": false
+            }
+        ],
+        "actionButtons": [],
+        "wid": "0a911dd1-64b3-4a3a-ba95-9276258337df",
+        "metadata": []
+    },
+    "uuid": "modules-forti_recon_a_c_i_reports-detail"
+}

@@ -1,0 +1,80 @@
+{
+    "@context": "\/api\/3\/contexts\/PicklistName",
+    "@id": "\/api\/3\/picklist_names\/146dfc19-3055-47fb-bb0a-4fd1273020b7",
+    "@type": "PicklistName",
+    "name": "FortiRecon Source Category",
+    "system": false,
+    "picklists": [
+        {
+            "@id": "\/api\/3\/picklists\/4ebdf06f-d679-4afc-95d4-c4df51860917",
+            "@type": "Picklist",
+            "itemValue": "Media Trends",
+            "orderIndex": 0,
+            "color": null,
+            "icon": null,
+            "listName": "\/api\/3\/picklist_names\/146dfc19-3055-47fb-bb0a-4fd1273020b7",
+            "uuid": "4ebdf06f-d679-4afc-95d4-c4df51860917"
+        },
+        {
+            "@id": "\/api\/3\/picklists\/c83acb12-5de3-4bd2-947f-62e9d0e1a23e",
+            "@type": "Picklist",
+            "itemValue": "Darknet",
+            "orderIndex": 1,
+            "color": null,
+            "icon": null,
+            "listName": "\/api\/3\/picklist_names\/146dfc19-3055-47fb-bb0a-4fd1273020b7",
+            "uuid": "c83acb12-5de3-4bd2-947f-62e9d0e1a23e"
+        },
+        {
+            "@id": "\/api\/3\/picklists\/a011a745-ed47-42dc-b8b9-c076b63e575d",
+            "@type": "Picklist",
+            "itemValue": "Humint",
+            "orderIndex": 2,
+            "color": null,
+            "icon": null,
+            "listName": "\/api\/3\/picklist_names\/146dfc19-3055-47fb-bb0a-4fd1273020b7",
+            "uuid": "a011a745-ed47-42dc-b8b9-c076b63e575d"
+        },
+        {
+            "@id": "\/api\/3\/picklists\/e60123b8-a7cb-4c40-b40d-531d8dd55a07",
+            "@type": "Picklist",
+            "itemValue": "OSINT",
+            "orderIndex": 3,
+            "color": null,
+            "icon": null,
+            "listName": "\/api\/3\/picklist_names\/146dfc19-3055-47fb-bb0a-4fd1273020b7",
+            "uuid": "e60123b8-a7cb-4c40-b40d-531d8dd55a07"
+        },
+        {
+            "@id": "\/api\/3\/picklists\/553d1555-43fc-4b56-89f0-5207195d1355",
+            "@type": "Picklist",
+            "itemValue": "Fraudulent Domains",
+            "orderIndex": 4,
+            "color": null,
+            "icon": null,
+            "listName": "\/api\/3\/picklist_names\/146dfc19-3055-47fb-bb0a-4fd1273020b7",
+            "uuid": "553d1555-43fc-4b56-89f0-5207195d1355"
+        },
+        {
+            "@id": "\/api\/3\/picklists\/ff913d99-e819-4fb2-8566-3e0651253d28",
+            "@type": "Picklist",
+            "itemValue": "Technical Intelligence",
+            "orderIndex": 5,
+            "color": null,
+            "icon": null,
+            "listName": "\/api\/3\/picklist_names\/146dfc19-3055-47fb-bb0a-4fd1273020b7",
+            "uuid": "ff913d99-e819-4fb2-8566-3e0651253d28"
+        },
+        {
+            "@id": "\/api\/3\/picklists\/0becec31-72d2-4a1b-badf-5605c93dc628",
+            "@type": "Picklist",
+            "itemValue": "Executive Summary",
+            "orderIndex": 6,
+            "color": null,
+            "icon": null,
+            "listName": "\/api\/3\/picklist_names\/146dfc19-3055-47fb-bb0a-4fd1273020b7",
+            "uuid": "0becec31-72d2-4a1b-badf-5605c93dc628"
+        }
+    ],
+    "uuid": "146dfc19-3055-47fb-bb0a-4fd1273020b7"
+}

@@ -1,0 +1,154 @@
+{
+    "@context": "\/api\/3\/contexts\/SystemViewTemplate",
+    "@type": "SystemViewTemplate",
+    "type": "form",
+    "config": {
+        "rows": [
+            {
+                "columns": [
+                    {
+                        "widgets": [
+                            {
+                                "type": "formGroup",
+                                "config": {
+                                    "wid": "4b57ca5d-ad85-4a1b-b94e-4c3a653fe493",
+                                    "rows": [
+                                        {
+                                            "columns": [
+                                                {
+                                                    "fields": [
+                                                        {
+                                                            "name": "reportID",
+                                                            "highlightMode": true,
+                                                            "readOnly": false
+                                                        },
+                                                        {
+                                                            "name": "reportTitle",
+                                                            "highlightMode": true,
+                                                            "readOnly": false
+                                                        },
+                                                        {
+                                                            "name": "summary",
+                                                            "highlightMode": true,
+                                                            "readOnly": false
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ],
+                                    "title": "Report Overview"
+                                }
+                            },
+                            {
+                                "type": "formGroup",
+                                "config": {
+                                    "wid": "48e2e78d-2c0e-4708-a079-e075fd0d9d82",
+                                    "rows": [
+                                        {
+                                            "columns": [
+                                                {
+                                                    "fields": [
+                                                        {
+                                                            "name": "tLP",
+                                                            "highlightMode": true,
+                                                            "readOnly": false
+                                                        },
+                                                        {
+                                                            "name": "status",
+                                                            "highlightMode": true,
+                                                            "readOnly": false
+                                                        },
+                                                        {
+                                                            "name": "threat",
+                                                            "highlightMode": true,
+                                                            "readOnly": false
+                                                        },
+                                                        {
+                                                            "name": "adversary",
+                                                            "highlightMode": true,
+                                                            "readOnly": false
+                                                        },
+                                                        {
+                                                            "name": "geography",
+                                                            "highlightMode": true,
+                                                            "readOnly": false
+                                                        },
+                                                        {
+                                                            "name": "motivation",
+                                                            "highlightMode": true,
+                                                            "readOnly": false
+                                                        },
+                                                        {
+                                                            "name": "industryTags",
+                                                            "highlightMode": true,
+                                                            "readOnly": false
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ],
+                                    "title": "Report Information"
+                                }
+                            },
+                            {
+                                "type": "formGroup",
+                                "config": {
+                                    "wid": "9f9d7c27-1c6e-45ab-8184-1a8d4df08000",
+                                    "rows": [
+                                        {
+                                            "columns": [
+                                                {
+                                                    "fields": []
+                                                }
+                                            ]
+                                        }
+                                    ],
+                                    "title": "Source Information"
+                                }
+                            },
+                            {
+                                "type": "formGroup",
+                                "config": {
+                                    "wid": "ebb486fb-afa7-462c-ac8e-dea1316f1c14",
+                                    "rows": [
+                                        {
+                                            "columns": [
+                                                {
+                                                    "fields": [
+                                                        {
+                                                            "name": "informationDate",
+                                                            "highlightMode": true,
+                                                            "readOnly": false
+                                                        },
+                                                        {
+                                                            "name": "publishDate",
+                                                            "highlightMode": true,
+                                                            "readOnly": false
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ],
+                                    "title": "Dates"
+                                }
+                            }
+                        ],
+                        "style": "col-lg-12"
+                    }
+                ],
+                "wid": "b5d1d2e7-d224-48c3-98d8-116876903a90",
+                "_collapsed": false
+            }
+        ],
+        "wid": "5272c627-f3f3-4034-a7d9-88c7194ae8fe",
+        "metadata": {
+            "customTemplateTitle": "FortiRecon Reports",
+            "originalTemplateTitle": "FortiRecon Reports"
+        },
+        "style": "col-lg-6 col-lg-offset-3 col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1"
+    },
+    "uuid": "modules-forti_recon_a_c_i_reports-form"
+}

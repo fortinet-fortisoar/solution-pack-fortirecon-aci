@@ -1,0 +1,70 @@
+{
+    "@context": "\/api\/3\/contexts\/PicklistName",
+    "@id": "\/api\/3\/picklist_names\/2d54aa92-4a55-44cb-b379-733e69f6dd12",
+    "@type": "PicklistName",
+    "name": "FortiRecon Information Reliability",
+    "system": false,
+    "picklists": [
+        {
+            "@id": "\/api\/3\/picklists\/28ff88cf-dc2a-4eac-81eb-9ec05fcc53be",
+            "@type": "Picklist",
+            "itemValue": "Confirmed",
+            "orderIndex": 0,
+            "color": "#28B35C",
+            "icon": null,
+            "listName": "\/api\/3\/picklist_names\/2d54aa92-4a55-44cb-b379-733e69f6dd12",
+            "uuid": "28ff88cf-dc2a-4eac-81eb-9ec05fcc53be"
+        },
+        {
+            "@id": "\/api\/3\/picklists\/294f86dc-4bce-41d4-a1bc-1d623235ebbb",
+            "@type": "Picklist",
+            "itemValue": "Probably True",
+            "orderIndex": 1,
+            "color": "#0fddda",
+            "icon": null,
+            "listName": "\/api\/3\/picklist_names\/2d54aa92-4a55-44cb-b379-733e69f6dd12",
+            "uuid": "294f86dc-4bce-41d4-a1bc-1d623235ebbb"
+        },
+        {
+            "@id": "\/api\/3\/picklists\/599f0feb-3fe2-4563-b89e-888c80ec4459",
+            "@type": "Picklist",
+            "itemValue": "Possibly True",
+            "orderIndex": 2,
+            "color": "#157DD9",
+            "icon": null,
+            "listName": "\/api\/3\/picklist_names\/2d54aa92-4a55-44cb-b379-733e69f6dd12",
+            "uuid": "599f0feb-3fe2-4563-b89e-888c80ec4459"
+        },
+        {
+            "@id": "\/api\/3\/picklists\/df3a5a73-705b-4b3f-afb5-5ecd4a149236",
+            "@type": "Picklist",
+            "itemValue": "Doubtfully True",
+            "orderIndex": 3,
+            "color": "#D2AC1A",
+            "icon": null,
+            "listName": "\/api\/3\/picklist_names\/2d54aa92-4a55-44cb-b379-733e69f6dd12",
+            "uuid": "df3a5a73-705b-4b3f-afb5-5ecd4a149236"
+        },
+        {
+            "@id": "\/api\/3\/picklists\/c84cb59d-21eb-4d6d-b5f8-ae3a56512c99",
+            "@type": "Picklist",
+            "itemValue": "Improbable",
+            "orderIndex": 4,
+            "color": "#DE7A13",
+            "icon": null,
+            "listName": "\/api\/3\/picklist_names\/2d54aa92-4a55-44cb-b379-733e69f6dd12",
+            "uuid": "c84cb59d-21eb-4d6d-b5f8-ae3a56512c99"
+        },
+        {
+            "@id": "\/api\/3\/picklists\/8476948a-7c6c-4b23-b8e5-6567b97bb41c",
+            "@type": "Picklist",
+            "itemValue": "Cannot Judged",
+            "orderIndex": 5,
+            "color": "#e31b1d",
+            "icon": null,
+            "listName": "\/api\/3\/picklist_names\/2d54aa92-4a55-44cb-b379-733e69f6dd12",
+            "uuid": "8476948a-7c6c-4b23-b8e5-6567b97bb41c"
+        }
+    ],
+    "uuid": "2d54aa92-4a55-44cb-b379-733e69f6dd12"
+}

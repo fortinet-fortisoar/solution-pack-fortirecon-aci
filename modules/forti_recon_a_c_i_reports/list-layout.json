@@ -1,0 +1,342 @@
+{
+    "@context": "\/api\/3\/contexts\/SystemViewTemplate",
+    "@type": "SystemViewTemplate",
+    "type": "rows",
+    "config": {
+        "rows": [
+            {
+                "columns": [
+                    {
+                        "widgets": [
+                            {
+                                "type": "chart",
+                                "config": {
+                                    "wid": "61a70b6f-4074-47c9-863e-0211252dd960",
+                                    "widgetAlwaysDisplay": true,
+                                    "showTabularData": false,
+                                    "query": {
+                                        "sort": [
+                                            {
+                                                "field": "tLP.orderIndex",
+                                                "direction": "ASC"
+                                            },
+                                            {
+                                                "field": "status",
+                                                "direction": "ASC"
+                                            }
+                                        ],
+                                        "limit": 2147483647,
+                                        "logic": "AND",
+                                        "filters": [],
+                                        "aggregates": [
+                                            {
+                                                "operator": "countdistinct",
+                                                "field": "*",
+                                                "alias": "total"
+                                            },
+                                            {
+                                                "operator": "groupby",
+                                                "alias": "tLP",
+                                                "field": "tLP.itemValue"
+                                            },
+                                            {
+                                                "operator": "groupby",
+                                                "alias": "firstOrderIndex",
+                                                "field": "tLP.orderIndex"
+                                            },
+                                            {
+                                                "operator": "groupby",
+                                                "alias": "status",
+                                                "field": "status"
+                                            }
+                                        ]
+                                    },
+                                    "mapping": {
+                                        "firstGrouping": "tLP",
+                                        "secondGrouping": "status"
+                                    },
+                                    "assignedToSetting": "all",
+                                    "aggregate": true,
+                                    "resource": "forti_recon_a_c_i_reports",
+                                    "chart": "bar",
+                                    "title": "TLP To Status"
+                                }
+                            }
+                        ],
+                        "style": "col-lg-3"
+                    },
+                    {
+                        "widgets": [
+                            {
+                                "type": "chart",
+                                "config": {
+                                    "wid": "bf9ed6ac-9e4c-44dc-a898-788efb487082",
+                                    "widgetAlwaysDisplay": true,
+                                    "showTabularData": false,
+                                    "query": {
+                                        "sort": [
+                                            {
+                                                "field": "tLP.orderIndex",
+                                                "direction": "ASC"
+                                            },
+                                            {
+                                                "field": "sourceReliability.orderIndex",
+                                                "direction": "ASC"
+                                            }
+                                        ],
+                                        "limit": 2147483647,
+                                        "logic": "AND",
+                                        "filters": [],
+                                        "aggregates": [
+                                            {
+                                                "operator": "countdistinct",
+                                                "field": "*",
+                                                "alias": "total"
+                                            },
+                                            {
+                                                "operator": "groupby",
+                                                "alias": "tLP",
+                                                "field": "tLP.itemValue"
+                                            },
+                                            {
+                                                "operator": "groupby",
+                                                "alias": "firstOrderIndex",
+                                                "field": "tLP.orderIndex"
+                                            },
+                                            {
+                                                "operator": "groupby",
+                                                "alias": "sourceReliability",
+                                                "field": "sourceReliability.itemValue"
+                                            },
+                                            {
+                                                "operator": "groupby",
+                                                "alias": "secondOrderIndex",
+                                                "field": "sourceReliability.orderIndex"
+                                            },
+                                            {
+                                                "operator": "groupby",
+                                                "alias": "color",
+                                                "field": "sourceReliability.color"
+                                            }
+                                        ]
+                                    },
+                                    "mapping": {
+                                        "firstGrouping": "tLP",
+                                        "secondGrouping": "sourceReliability"
+                                    },
+                                    "assignedToSetting": "all",
+                                    "aggregate": true,
+                                    "resource": "forti_recon_a_c_i_reports",
+                                    "chart": "bar",
+                                    "title": "TLP To Source Reliability"
+                                }
+                            }
+                        ],
+                        "style": "col-lg-3"
+                    },
+                    {
+                        "widgets": [
+                            {
+                                "type": "chart",
+                                "config": {
+                                    "wid": "0bd746ec-b952-4e0f-b500-21b8d6d5025c",
+                                    "widgetAlwaysDisplay": true,
+                                    "showTabularData": false,
+                                    "query": {
+                                        "sort": [
+                                            {
+                                                "field": "tLP.orderIndex",
+                                                "direction": "ASC"
+                                            },
+                                            {
+                                                "field": "informationReliability.orderIndex",
+                                                "direction": "ASC"
+                                            }
+                                        ],
+                                        "limit": 2147483647,
+                                        "logic": "AND",
+                                        "filters": [],
+                                        "aggregates": [
+                                            {
+                                                "operator": "countdistinct",
+                                                "field": "*",
+                                                "alias": "total"
+                                            },
+                                            {
+                                                "operator": "groupby",
+                                                "alias": "tLP",
+                                                "field": "tLP.itemValue"
+                                            },
+                                            {
+                                                "operator": "groupby",
+                                                "alias": "firstOrderIndex",
+                                                "field": "tLP.orderIndex"
+                                            },
+                                            {
+                                                "operator": "groupby",
+                                                "alias": "informationReliability",
+                                                "field": "informationReliability.itemValue"
+                                            },
+                                            {
+                                                "operator": "groupby",
+                                                "alias": "secondOrderIndex",
+                                                "field": "informationReliability.orderIndex"
+                                            },
+                                            {
+                                                "operator": "groupby",
+                                                "alias": "color",
+                                                "field": "informationReliability.color"
+                                            }
+                                        ]
+                                    },
+                                    "mapping": {
+                                        "firstGrouping": "tLP",
+                                        "secondGrouping": "informationReliability"
+                                    },
+                                    "assignedToSetting": "all",
+                                    "aggregate": true,
+                                    "resource": "forti_recon_a_c_i_reports",
+                                    "chart": "bar",
+                                    "title": "TLP To Information Reliability"
+                                }
+                            }
+                        ],
+                        "style": "col-lg-3"
+                    },
+                    {
+                        "widgets": [
+                            {
+                                "type": "chart",
+                                "config": {
+                                    "wid": "a84480e6-0e0f-46e3-b0a7-465fcafe2af5",
+                                    "widgetAlwaysDisplay": true,
+                                    "showTabularData": false,
+                                    "query": {
+                                        "sort": [
+                                            {
+                                                "field": "tLP.orderIndex",
+                                                "direction": "ASC"
+                                            },
+                                            {
+                                                "field": "relevanceRating.orderIndex",
+                                                "direction": "ASC"
+                                            }
+                                        ],
+                                        "limit": 2147483647,
+                                        "logic": "AND",
+                                        "filters": [],
+                                        "aggregates": [
+                                            {
+                                                "operator": "countdistinct",
+                                                "field": "*",
+                                                "alias": "total"
+                                            },
+                                            {
+                                                "operator": "groupby",
+                                                "alias": "tLP",
+                                                "field": "tLP.itemValue"
+                                            },
+                                            {
+                                                "operator": "groupby",
+                                                "alias": "firstOrderIndex",
+                                                "field": "tLP.orderIndex"
+                                            },
+                                            {
+                                                "operator": "groupby",
+                                                "alias": "relevanceRating",
+                                                "field": "relevanceRating.itemValue"
+                                            },
+                                            {
+                                                "operator": "groupby",
+                                                "alias": "secondOrderIndex",
+                                                "field": "relevanceRating.orderIndex"
+                                            },
+                                            {
+                                                "operator": "groupby",
+                                                "alias": "color",
+                                                "field": "relevanceRating.color"
+                                            }
+                                        ]
+                                    },
+                                    "mapping": {
+                                        "firstGrouping": "tLP",
+                                        "secondGrouping": "relevanceRating"
+                                    },
+                                    "assignedToSetting": "all",
+                                    "aggregate": true,
+                                    "resource": "forti_recon_a_c_i_reports",
+                                    "chart": "bar",
+                                    "title": "TLP To Relevance Rating"
+                                }
+                            }
+                        ],
+                        "style": "col-lg-3"
+                    }
+                ],
+                "wid": "2810eda7-2a3b-48e9-9d75-4de13ad0c315",
+                "_collapsed": false,
+                "collapsible": false,
+                "collapsibleIndex": 0,
+                "container": true
+            },
+            {
+                "columns": [
+                    {
+                        "widgets": [
+                            {
+                                "type": "grid",
+                                "config": {
+                                    "wid": "47ddc5a2-3164-431e-99b7-b1214dbe532b",
+                                    "module": "forti_recon_a_c_i_reports",
+                                    "columns": [
+                                        "id",
+                                        "reportID",
+                                        "reportTitle",
+                                        "tLP",
+                                        "relevanceRating",
+                                        "informationReliability",
+                                        "sourceReliability"
+                                    ],
+                                    "expandableCol": [
+                                        {
+                                            "openTab": false,
+                                            "name": "summary"
+                                        }
+                                    ],
+                                    "relationshipField": [],
+                                    "checkboxStatus": true,
+                                    "editableFields": false,
+                                    "actionButtons": [],
+                                    "query": {
+                                        "sort": [
+                                            {
+                                                "direction": "DESC",
+                                                "field": "reportID",
+                                                "_fieldTitle": "Report ID",
+                                                "_fieldName": "reportID"
+                                            }
+                                        ],
+                                        "limit": 30,
+                                        "logic": "AND",
+                                        "filters": []
+                                    },
+                                    "lightMode": false
+                                }
+                            }
+                        ],
+                        "style": "col-lg-12"
+                    }
+                ],
+                "wid": "80cc0044-2985-4ce2-9370-89cffb322450",
+                "_collapsed": false,
+                "container": false
+            }
+        ],
+        "wid": "8388d448-cf9f-4b25-8a68-22682d9b50db",
+        "metadata": {
+            "customTemplateTitle": "FortiRecon ACI Reports",
+            "originalTemplateTitle": "FortiRecon Reports"
+        }
+    },
+    "uuid": "modules-forti_recon_a_c_i_reports-list"
+}
