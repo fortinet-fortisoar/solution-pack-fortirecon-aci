@@ -1,0 +1,50 @@
+{
+    "@context": "\/api\/3\/contexts\/PicklistName",
+    "@id": "\/api\/3\/picklist_names\/118b32f2-2cac-4e92-ad3e-f0a78fd67eb8",
+    "@type": "PicklistName",
+    "name": "FortiRecon Report Type",
+    "system": false,
+    "picklists": [
+        {
+            "@id": "\/api\/3\/picklists\/c5f180df-ef86-40fc-be90-987f0e3e3534",
+            "@type": "Picklist",
+            "itemValue": "Flash Report",
+            "orderIndex": 0,
+            "color": null,
+            "icon": null,
+            "listName": "\/api\/3\/picklist_names\/118b32f2-2cac-4e92-ad3e-f0a78fd67eb8",
+            "uuid": "c5f180df-ef86-40fc-be90-987f0e3e3534"
+        },
+        {
+            "@id": "\/api\/3\/picklists\/e6eaf7f6-9564-46de-853b-b164b0ad1957",
+            "@type": "Picklist",
+            "itemValue": "Flash Alert",
+            "orderIndex": 1,
+            "color": null,
+            "icon": null,
+            "listName": "\/api\/3\/picklist_names\/118b32f2-2cac-4e92-ad3e-f0a78fd67eb8",
+            "uuid": "e6eaf7f6-9564-46de-853b-b164b0ad1957"
+        },
+        {
+            "@id": "\/api\/3\/picklists\/2a26802f-ed8d-477f-94c2-634c66d60819",
+            "@type": "Picklist",
+            "itemValue": "Threat Alert",
+            "orderIndex": 2,
+            "color": null,
+            "icon": null,
+            "listName": "\/api\/3\/picklist_names\/118b32f2-2cac-4e92-ad3e-f0a78fd67eb8",
+            "uuid": "2a26802f-ed8d-477f-94c2-634c66d60819"
+        },
+        {
+            "@id": "\/api\/3\/picklists\/91428d10-d18e-4baa-a788-2053a06d9a52",
+            "@type": "Picklist",
+            "itemValue": "Threat Report",
+            "orderIndex": 3,
+            "color": null,
+            "icon": null,
+            "listName": "\/api\/3\/picklist_names\/118b32f2-2cac-4e92-ad3e-f0a78fd67eb8",
+            "uuid": "91428d10-d18e-4baa-a788-2053a06d9a52"
+        }
+    ],
+    "uuid": "118b32f2-2cac-4e92-ad3e-f0a78fd67eb8"
+}

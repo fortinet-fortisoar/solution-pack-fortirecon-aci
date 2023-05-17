@@ -1,0 +1,25 @@
+{
+    "@context": "\/api\/3\/contexts\/SystemViewTemplate",
+    "@type": "SystemViewTemplate",
+    "type": "app",
+    "config": {
+        "navigation": [
+            {
+                "title": "FortiRecon ACI Reports",
+                "require": {
+                    "module": "forti_recon_a_c_i_reports",
+                    "action": "read"
+                },
+                "state": {
+                    "name": "main.modules.list",
+                    "parameters": {
+                        "module": "forti_recon_a_c_i_reports"
+                    }
+                },
+                "icon": "icon icon-generate-incident-summary-report",
+                "editMode": false
+            }
+        ]
+    },
+    "uuid": "navigation"
+}

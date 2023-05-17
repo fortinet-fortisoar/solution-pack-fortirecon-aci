@@ -1,0 +1,82 @@
+{
+    "name": "fortiReconACI",
+    "version": "1.0.0",
+    "fsrMinCompatibility": "7.4.0",
+    "type": "solutionpack",
+    "local": true,
+    "label": "FortiRecon ACI",
+    "dependencies": [
+        {
+            "name": "threat-intel-management",
+            "type": "solutionpack",
+            "label": "Threat Intel Management",
+            "minVersion": null
+        }
+    ],
+    "prerequisite": null,
+    "publisher": "Fortinet",
+    "description": "",
+    "help": null,
+    "category": [
+        "Threat Intelligence"
+    ],
+    "supportInfo": null,
+    "iconLarge": null,
+    "postInstallConfig": null,
+    "date": "2023-05-16T11:55:35+00:00",
+    "contents": {
+        "picklistNames": [
+            {
+                "name": "FortiRecon Information Reliability"
+            },
+            {
+                "name": "FortiRecon Relevance Rating"
+            },
+            {
+                "name": "FortiRecon Report Type"
+            },
+            {
+                "name": "FortiRecon Source Category"
+            },
+            {
+                "name": "FortiRecon Source Reliability"
+            },
+            {
+                "name": "TLP"
+            }
+        ],
+        "modules": {
+            "forti_recon_a_c_i_reports": {
+                "name": "FortiRecon ACI Reports",
+                "apiName": "forti_recon_a_c_i_reports"
+            }
+        },
+        "viewTemplates": {
+            "forti_recon_a_c_i_reports": {
+                "name": "FortiRecon ACI Reports",
+                "apiName": "forti_recon_a_c_i_reports",
+                "views": [
+                    "list",
+                    "detail",
+                    "form"
+                ]
+            }
+        },
+        "views": {
+            "navigation": [
+                "FortiRecon ACI Reports"
+            ]
+        },
+        "roles": [
+            {
+                "name": "Full App Permissions"
+            }
+        ],
+        "connectors": [
+            {
+                "name": "Fortinet FortiRecon ACI",
+                "apiName": "fortinet-fortirecon-aci"
+            }
+        ]
+    }
+}
