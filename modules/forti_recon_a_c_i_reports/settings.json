@@ -1,0 +1,21 @@
+{
+    "@context": "\/api\/3\/contexts\/SystemViewTemplate",
+    "@type": "SystemViewTemplate",
+    "type": null,
+    "config": {
+        "correlationConfig": {
+            "relationships": [
+                {
+                    "module": "Threat Intel Feed",
+                    "field": "threatIntelFeed"
+                }
+            ],
+            "color": "",
+            "picklist": "relevanceRating",
+            "display_field": "reportID",
+            "$type": "box",
+            "bgShape": "image"
+        }
+    },
+    "uuid": "modules-forti_recon_a_c_i_reports-settings"
+}

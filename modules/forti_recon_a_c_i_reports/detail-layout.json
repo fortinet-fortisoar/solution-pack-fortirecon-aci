@@ -334,18 +334,13 @@
                                                                             "config": {
                                                                                 "tabs": [
                                                                                     {
-                                                                                        "title": "Related Records",
+                                                                                        "title": "Threat Intel Management",
                                                                                         "widget": {
                                                                                             "type": "relationship.subtab",
                                                                                             "config": {
-                                                                                                "excludes": [
-                                                                                                    "notes",
-                                                                                                    "comments",
-                                                                                                    "userOwners",
-                                                                                                    "attachments"
-                                                                                                ],
+                                                                                                "excludes": [],
                                                                                                 "wid": "fc115141-8259-4239-941a-247262cab27a",
-                                                                                                "selectionType": "exclude",
+                                                                                                "selectionType": "include",
                                                                                                 "expandableCol": {
                                                                                                     "indicators": {
                                                                                                         "columns": [],
@@ -353,12 +348,122 @@
                                                                                                     }
                                                                                                 },
                                                                                                 "enableHorizontalScroll": [],
-                                                                                                "includes": []
+                                                                                                "includes": [
+                                                                                                    "threatIntelFeed"
+                                                                                                ]
                                                                                             }
                                                                                         },
-                                                                                        "show": true,
+                                                                                        "show": false,
                                                                                         "visible": true,
-                                                                                        "icon": "fa fa-none"
+                                                                                        "icon": "icon icon-threat-intel-management"
+                                                                                    },
+                                                                                    {
+                                                                                        "title": "Source Data",
+                                                                                        "active": 0,
+                                                                                        "widget": {
+                                                                                            "type": "rows",
+                                                                                            "config": {
+                                                                                                "wid": "5fb20038-ee64-4d7d-9b2c-7508b6f2ad2e",
+                                                                                                "rows": [
+                                                                                                    {
+                                                                                                        "columns": [
+                                                                                                            {
+                                                                                                                "widgets": [
+                                                                                                                    {
+                                                                                                                        "type": "editableFormGroup",
+                                                                                                                        "config": {
+                                                                                                                            "wid": "10a5b430-b380-4801-80fe-12314c76e416",
+                                                                                                                            "rows": [
+                                                                                                                                {
+                                                                                                                                    "columns": [
+                                                                                                                                        {
+                                                                                                                                            "fields": [
+                                                                                                                                                {
+                                                                                                                                                    "name": "sourceData",
+                                                                                                                                                    "highlightMode": true,
+                                                                                                                                                    "readOnly": true,
+                                                                                                                                                    "renderWidget": "json",
+                                                                                                                                                    "renderWidgetHeight": 500
+                                                                                                                                                }
+                                                                                                                                            ]
+                                                                                                                                        }
+                                                                                                                                    ]
+                                                                                                                                }
+                                                                                                                            ]
+                                                                                                                        }
+                                                                                                                    }
+                                                                                                                ],
+                                                                                                                "style": "col-lg-12"
+                                                                                                            }
+                                                                                                        ],
+                                                                                                        "wid": "7679729d-75ab-4709-88a2-d8d062f7ed68",
+                                                                                                        "_collapsed": false
+                                                                                                    }
+                                                                                                ]
+                                                                                            }
+                                                                                        },
+                                                                                        "icon": "fa fa-th",
+                                                                                        "show": false,
+                                                                                        "visible": true
+                                                                                    },
+                                                                                    {
+                                                                                        "title": "Visual Correlation",
+                                                                                        "active": 0,
+                                                                                        "widget": {
+                                                                                            "type": "visualCorrelation",
+                                                                                            "config": {
+                                                                                                "wid": "603723cd-2cd0-428c-b202-2238d2c67edd",
+                                                                                                "nodeLevels": [
+                                                                                                    {
+                                                                                                        "name": "threat_intel_feeds",
+                                                                                                        "level": 1
+                                                                                                    },
+                                                                                                    {
+                                                                                                        "name": "mitre_software",
+                                                                                                        "level": 2
+                                                                                                    },
+                                                                                                    {
+                                                                                                        "name": "mitre_groups",
+                                                                                                        "level": 3
+                                                                                                    },
+                                                                                                    {
+                                                                                                        "name": "mitre_techniques",
+                                                                                                        "level": 4
+                                                                                                    },
+                                                                                                    {
+                                                                                                        "name": "mitre_sub_techniques",
+                                                                                                        "level": 5
+                                                                                                    },
+                                                                                                    {
+                                                                                                        "name": "indicators",
+                                                                                                        "level": 6
+                                                                                                    },
+                                                                                                    {
+                                                                                                        "name": "alerts",
+                                                                                                        "level": 7
+                                                                                                    },
+                                                                                                    {
+                                                                                                        "name": "assets",
+                                                                                                        "level": 8
+                                                                                                    },
+                                                                                                    {
+                                                                                                        "name": "warrooms",
+                                                                                                        "level": 9
+                                                                                                    },
+                                                                                                    {
+                                                                                                        "name": "incidents",
+                                                                                                        "level": 10
+                                                                                                    },
+                                                                                                    {
+                                                                                                        "name": "vulnerabilities",
+                                                                                                        "level": 11
+                                                                                                    }
+                                                                                                ]
+                                                                                            }
+                                                                                        },
+                                                                                        "icon": "icon icon-visual-correlation",
+                                                                                        "show": true,
+                                                                                        "visible": true
                                                                                     }
                                                                                 ],
                                                                                 "wid": "5fc7f7cd-9133-4f9c-a356-e540f3b83da6"
@@ -424,7 +529,8 @@
                                             "show": false,
                                             "visible": true
                                         }
-                                    ]
+                                    ],
+                                    "isPrimaryTab": false
                                 }
                             }
                         ],
